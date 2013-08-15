@@ -24,6 +24,7 @@ private slots:
 private:
     Ui::Widget *ui;
     QNetworkAccessManager* mgr;
+    QString *content;
 };
 
 #endif // WIDGET_H
